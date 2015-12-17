@@ -1,6 +1,26 @@
-body{
-	background: pink;
-	color: red;
-	text-align: center;
-	font-size: 20px;
+*{
+	box-sizing: border-box;
+}
+body {
+    opacity: .5;
+    box-sizing: border-box;
+    transform: scale(.5);
+    display: flex;
+}
+p{
+	color: green;
+	font-size: 15px;
+	box-shadow: 2px 1px 30px 5px orange;
+	display: flex;
+	 user-select: none;
+}
+.caption{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 1px solid orange;
+	line-height: 150px;
+	background: yellow;
+	margin: auto;
+
 }

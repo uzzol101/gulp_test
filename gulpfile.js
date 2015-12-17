@@ -4,7 +4,8 @@ var gulp = require('gulp');
 var gutil = require('gulp-util'),
 	rSass = require('gulp-ruby-sass'),
 	
-	connect = require('gulp-connect');
+	connect = require('gulp-connect'),
+	autoprefixer = require('gulp-autoprefixer');
 
 // file sources and destination
 
@@ -12,8 +13,9 @@ var gutil = require('gulp-util'),
 // task for sass convert to css
 gulp.task('sass',function(){
 	return rSass('build/development/*.scss',{ style: 'expanded' })
-		
+		.pipe(autoprefixer())
 		.pipe(gulp.dest('build/development/css'))
+
 		.pipe(connect.reload())
 });	
 gulp.task('html',function(){
