@@ -2,27 +2,10 @@
   box-sizing: border-box;
 }
 
-body {
-  opacity: .5;
-  box-sizing: border-box;
-  -webkit-transform: scale(0.5);
-          transform: scale(0.5);
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 p {
   color: green;
   font-size: 15px;
   box-shadow: 2px 1px 30px 5px orange;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
 
 .caption {
@@ -33,4 +16,5 @@ p {
   line-height: 150px;
   background: yellow;
   margin: auto;
+  text-align: center;
 }

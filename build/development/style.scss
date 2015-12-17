@@ -1,18 +1,12 @@
 *{
 	box-sizing: border-box;
 }
-body {
-    opacity: .5;
-    box-sizing: border-box;
-    transform: scale(.5);
-    display: flex;
-}
+
 p{
 	color: green;
 	font-size: 15px;
 	box-shadow: 2px 1px 30px 5px orange;
-	display: flex;
-	 user-select: none;
+	
 }
 .caption{
 	width: 150px;
@@ -22,5 +16,6 @@ p{
 	line-height: 150px;
 	background: yellow;
 	margin: auto;
+	text-align: center;
 
 }
